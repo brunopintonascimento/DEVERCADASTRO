@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    .navbar {
+      background-color: #343a40;
+      /* Cor de fundo escura */
+    }
+
+    .navbar-nav .nav-link {
+      color: #ffffff;
+      /* Cor do texto branco */
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #ff6347;
+      /* Cor do texto ao passar o mouse */
+    }
+
+    body {
+      background-image: url("../PaginaInicial/imagens/documentação.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .rodape {
+      width: 100%;
+      background-color: #343a40;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      color: #ffffff;
+
+    }
+
+    .container {
+      padding: 10px;
+
+    }
+
+    .titulo {
+      font-family: 'Georgia', serif;
+      /* Fonte elegante para o título */
+      font-size: 40px;
+      /* Tamanho da fonte do título */
+      color: #2c3e50;
+      /* Cor da fonte */
+      text-align: center;
+      /* Alinhamento central */
+      margin-top: 20px;
+      /* Espaçamento superior */
+      margin-bottom: 10px;
+      /* Espaçamento inferior */
+      letter-spacing: 1px;
+      /* Espaçamento entre letras */
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+      /* Sombra de texto sutil */
+
+    }
+
+    .texto {
+      font-family: 'Arial', sans-serif;
+      /* Fonte moderna e limpa para o parágrafo */
+      font-size: 18px;
+      /* Tamanho da fonte do parágrafo */
+      color: white;
+      /* Cor da fonte */
+      line-height: 1.6;
+      /* Altura da linha para melhor legibilidade */
+      text-align: justify;
+      /* Alinhamento justificado */
+      margin: 20px 0;
+      /* Espaçamento superior e inferior */
+      padding: 0 10px;
+      /* Padding horizontal */
+      text-align: center;
+     
+    
+    }
+    .buttonVoltar button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Cadastro de Clientes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../ListaCadastro/listaClientes.html">Listar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../NovoCadastro/novo.html">Novo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../QuemSomos/quemsomos.html">Quem Somos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <h1 class="titulo">Quem somos</h1>
+  <p class="texto">“Nossa empresa nasceu de uma paixão por ajudar as pessoas a alcançarem o sucesso em seus negócios
+    online. <br>
+    Combinamos nossa experiência em marketing digital e desenvolvimento de produtos para criar soluções
+    inovadoras que capacitam nossos clientes a construírem negócios prósperos na internet.”</p>
+    <div class="buttonVoltar">
+      <a href="../PaginaInicial/index.html"><button>voltar</button></a>
+  </div>
+  <footer class="rodape">
+    <div class="container">
+      <p>Author: Bruno Pinto Nascimento</p>
+      <p><a href="mailto:brunosupa@gmail.com">brunosupa@gmail.com</a></p>
+      <p>&copy; Cadastro clientes todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
